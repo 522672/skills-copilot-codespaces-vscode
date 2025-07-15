@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7f8;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+#dashboard p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+#withdrawBtn {
+    background-color: #777;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#withdrawBtn.enabled {
+    background-color: #28a745;
+    cursor: pointer;
+}
+#nextDayBtn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
